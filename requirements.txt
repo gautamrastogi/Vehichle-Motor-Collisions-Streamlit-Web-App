@@ -1,6 +1,6 @@
 streamlit
 numpy
 pandas
-pydeck
+pydeck==0.7.1
 plotly.express
 urllib3
