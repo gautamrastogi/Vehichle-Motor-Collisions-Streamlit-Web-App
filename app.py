@@ -4,16 +4,7 @@ import pandas as pd
 import pydeck as pdk
 import plotly.express as px
 
-#data_url = ("Motor_Vehicle_Collisions_-_Crashes.csv")
-
-from urllib.request import Request, urlopen
-
-req = Request(
-    url='https://vgtuitsc-my.sharepoint.com/:x:/g/personal/gautam_rastogi_stud_vilniustech_lt/EVMOxVCAQshKk93rRXlNFHQBVtbLh7OBRZIRaRmDuFddvw?e=liIvM3&output=csv', 
-    headers={'User-Agent': 'Mozilla/5.0'}
-)
-webpage = urlopen(req).read()
-data_url = ("https://vgtuitsc-my.sharepoint.com/:x:/g/personal/gautam_rastogi_stud_vilniustech_lt/EVMOxVCAQshKk93rRXlNFHQBVtbLh7OBRZIRaRmDuFddvw?e=liIvM3&output=csv")
+data_url = ("Motor_Vehicle_Collisions_-_Crashes.csv")
 
 st.title("Motor Vehicle Collisions Statistics - New York City")
 st.markdown("Stramlit Dashboard used to analyze motor vehicle collision in 🗽💥🏎️")
